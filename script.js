@@ -5,4 +5,10 @@ document.getElementById("actionButton").addEventListener("click",
 }
 );
 
-print(123)
+document.getElementById("year").innerHTML = 2024
+
+document.getElementById("title").addEventListener("click",
+ function() {
+    document.getElementById("description").classList.toggle('nonvisible')
+}
+);
