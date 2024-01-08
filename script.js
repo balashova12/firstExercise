@@ -7,7 +7,7 @@ document.getElementById("actionButton").addEventListener("click",
 
 document.getElementById("year").innerHTML = 2024
 
-document.getElementById("title").addEventListener("click",
+document.getElementById("actionButton").addEventListener("click",
  function() {
     document.getElementById("description").classList.toggle('nonvisible')
 }
