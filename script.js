@@ -9,8 +9,3 @@ document.getElementById("rightanswer").addEventListener("click",
 }
 );
 
-document.getElementById("actionButton").addEventListener("click",
- function() {
-    document.getElementById("description").classList.toggle('nonvisible')
-}
-);
