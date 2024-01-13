@@ -1,10 +1,32 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #content {
     text-align: center;
     margin-top: 50px;
+}
+
+#navbar {
+    background: aqua;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#navbar a:hover {
+    background-color: white;
+    color: coral;
 }
 
 #actionButton {
@@ -14,7 +36,6 @@ body {
     cursor: pointer;
 }
 
-.link:hover{
-    background: white;
-    color:coral;
+.nonvisible {
+    opacity: 0;
 }
