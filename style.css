@@ -14,18 +14,7 @@ body {
     cursor: pointer;
 }
 
-#navbar{
-    background: aqua;
-    color:white;
-    width: 100vw;
-    height: 80px;;
-}
-
 .link:hover{
     background: white;
     color:coral;
-}
-
-.nonvisible{
-    opacity: 0;
 }

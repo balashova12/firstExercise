@@ -1,11 +1,13 @@
-document.getElementById("actionButton").addEventListener("click",
+document.getElementById("rightanswer").addEventListener("click",
  function() {
-    alert("Button clicked!");
-    print(123)
+    alert("Correct!!!");
 }
 );
-
-document.getElementById("year").innerHTML = 2024
+document.getElementById("rightanswer").addEventListener("click",
+ function() {
+    alert("Try again");
+}
+);
 
 document.getElementById("actionButton").addEventListener("click",
  function() {
